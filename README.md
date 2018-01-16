@@ -1,8 +1,8 @@
-# One Page New Age Hotelinky theme
+# We.js Trident theme
+
+Theme with 3 columns in header and logo at middle.
 
 Build for Hotelinky projects, see more in https://linkysystems.com/
-
-Based in https://startbootstrap.com/template-overviews/new-age/ with many changes.
 
 We.js theme!
 
