@@ -21,13 +21,12 @@ module.exports = {
         label: 'Cor padrão do tema',
         stylesheet: 'files/public/style-default.css',
         colors: [
-          { value: '#ab4240' },
-          { value: '#fcbd20' },
-          { value: '#fdc539' },
+          { value: '#600405' },
+          { value: '#6E2D28' },
           { value: '#000' },
           { value: '#fff' },
           { value: '#222222' },
-          { value: '#FFD15A' }
+          { value: '#cc964e' }
         ]
       },
       gray: {
@@ -45,7 +44,7 @@ module.exports = {
         stylesheet: 'files/public/style-darkgreen.css',
         colors: [
           { value: '#003929' },
-          { value: '#ab4240' },
+          { value: '#F1AD00' },
           { value: '#fff' },
           { value: '#00291e' }
         ]

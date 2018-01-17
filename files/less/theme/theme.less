@@ -829,7 +829,7 @@ body.iframe-page-type {
   top: 25px;
   z-index: 10;
   border: 1px solid lighten(@header-topbar-bg, 10%);
-  background-color: @header-topbar-bg;
+  background-color: #fff;
   display: block;
   color: @navbar-color;
   float: none;
@@ -841,10 +841,10 @@ body.iframe-page-type {
 }
 
 .header-subbar {
+  @header-subbar();
+
   width: 100%;
   min-height: 5px;
-  border-top: 2px solid lighten(@header-topbar-bg, 10%);
-  border-bottom: 1px solid lighten(@header-topbar-bg, 7%);
 }
 
 .header-logo-block.with-logo-img {
@@ -919,9 +919,9 @@ body.iframe-page-type {
     .widget-header {
       .panel-heading();
 
-      color: #333;
-      background-color: #f5f5f5;
-      border-color: #ddd;
+      color: @panel-default-text;
+      background-color: @panel-default-heading-bg;
+      border-color: @panel-default-border;
 
       h3 {
         font-family: inherit;

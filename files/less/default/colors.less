@@ -12,8 +12,13 @@
   border-bottom: 1px solid lighten(@header-topbar-bg, 20%);
   margin: 3px 0px;
 };
-@navbar-border-color: lighten(@header-topbar-bg, 20%);
+@navbar-border-color: darken(@header-topbar-bg, 20%);
 @navbar-toggle: #222222;
+
+@header-subbar: {
+  border-top: 2px solid lighten(@header-topbar-bg, 10%);
+  border-bottom: 1px solid lighten(@header-topbar-bg, 7%);
+};
 
 @footer-bg: @navbar-bg;
 @footer-color: @navbar-color;

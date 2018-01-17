@@ -7471,7 +7471,7 @@ body.iframe-page-type footer {
   top: 25px;
   z-index: 10;
   border: 1px solid #910608;
-  background-color: #600405;
+  background-color: #fff;
   display: block;
   color: #000;
   float: none;
@@ -7482,10 +7482,10 @@ body.iframe-page-type footer {
   text-align: center;
 }
 .header-subbar {
-  width: 100%;
-  min-height: 5px;
   border-top: 2px solid #910608;
   border-bottom: 1px solid #820507;
+  width: 100%;
+  min-height: 5px;
 }
 .header-logo-block.with-logo-img .navbar-brand {
   top: 5px;
@@ -7718,7 +7718,7 @@ body.iframe-page-type footer {
   border-bottom: 1px solid transparent;
   border-top-right-radius: 3px;
   border-top-left-radius: 3px;
-  color: #333;
+  color: #333333;
   background-color: #f5f5f5;
   border-color: #ddd;
 }

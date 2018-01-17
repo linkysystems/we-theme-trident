@@ -1,19 +1,48 @@
+@header-topbar-bg: #aaa;
+@header-topbar-color: #fff;
+
 @a-color: #333;
-@a-color-hover: #888;
-@a-color-hover-2: #888;
-@navbar-color:  #000;
+@a-color-hover: lighten(@a-color, 15%);
+@a-color-hover-2: @a-color-hover;
+
+@navbar-bg: #fff;
+@navbar-color: #000;
 @navbar-color-hover: @a-color-hover;
+@navbar-border: {
+  border-top: 1px solid darken(@header-topbar-bg, 20%);
+  border-bottom: 1px solid darken(@header-topbar-bg, 20%);
+  margin: 3px 0px;
+};
+@navbar-border-color: darken(@header-topbar-bg, 20%);
 @navbar-toggle: #222222;
-@footer-bg: #222;
-@footer-color: #fff;
-@border-color: #ccc;
+
+@header-subbar: {
+  border-top: 2px solid darken(@header-topbar-bg, 30%);
+  border-bottom: 1px solid darken(@header-topbar-bg, 25%);
+};
+
 @widget-title-color: #000;
 @social-menu-a-bg: #fff;
 @social-menu-a-border: #adadad;
 @social-menu-a-color:  #000;
 @social-menu-a-hover-color: #000;
 @social-menu-a-hover-bg:  #022480;
-@header-topbar-bg: #aaa;
+
+@footer-bg: @header-topbar-bg;
+@footer-color: @navbar-color;
+
+@border-color: #ccc;
+
+
+@social-menu-a-hover-color: #000;
+@social-menu-a-hover-bg:  #022480;
+
+
+
+
+
+
+
 
 @brand-primary:         darken(#555, 6.5%);
 @brand-success:         #555;

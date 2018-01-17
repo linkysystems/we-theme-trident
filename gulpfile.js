@@ -39,6 +39,10 @@ colorNames.forEach( (name)=> {
     }))
     .pipe(gulp.dest('./files/public/'));
   });
+
+  gulp.task(taskName+'_watch', function () {
+    gulp.watch('files/less/**/*.less', [taskName]);
+  });
 });
 
 // -- JS
