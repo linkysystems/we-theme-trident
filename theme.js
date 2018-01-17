@@ -155,15 +155,7 @@ module.exports = {
           name: 'Depois do conteúdo'
         }
       }
-    },
-    'eventHome': {
-      template: __dirname + '/templates/server/layouts/event-home-layout.hbs',
-      regions: {
-        highlighted: {
-          name: 'Highlighted'
-        },
-      }
-    },
+    }
   },
   widgets: {
     'html': __dirname + '/templates/server/widgets/html-widget.hbs',
