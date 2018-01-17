@@ -78,6 +78,16 @@ module.exports = {
           { value: '#fff' },
           { value: '#FEA313' }
         ]
+      },
+      sandgreen: {
+        label: 'Cores: areia, verde e amarelo',
+        stylesheet: 'files/public/style-sandgreen.css',
+        colors: [
+          { value: '#71C3B7' },
+          { value: '#182c2f' },
+          { value: '#fff' },
+          { value: '#FEA313' }
+        ]
       }
     }
   },
