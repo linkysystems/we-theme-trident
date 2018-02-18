@@ -1,3 +1,4 @@
+<div class="record-list">
 {{#if req.user.id}}
   {{template 'post/sharebox' locals=this}}
 {{/if}}
@@ -15,3 +16,4 @@
 </div>
 
 {{paginate count=metadata.count limit=query.limit currentPage=query.page req=req}}
+</div>
