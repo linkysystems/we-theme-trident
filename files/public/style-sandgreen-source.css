@@ -8036,6 +8036,9 @@ body.body-main-index .hotel-event-teaser .hotel-event-about {
 #region-sidebar .widget-mailchimp-subscription-form h3 {
   margin-top: 0px;
 }
+.widget-news-panel {
+  min-height: 535px;
+}
 @media (max-width: 768px) {
   body.body-main-index #region-content .widget.widget-slideshow h2 {
     font-size: 14px;

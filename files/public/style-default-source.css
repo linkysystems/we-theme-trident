@@ -6893,13 +6893,6 @@ header .header-content .header-content-inner .list-badges img {
   height: 50px;
   margin-bottom: 25px;
 }
-header .device-container {
-  max-width: 300px;
-  margin: 0 auto 100px;
-}
-header .device-container .screen img {
-  border-radius: 3px;
-}
 @media (min-width: 768px) {
   header {
     min-height: 100%;
@@ -7141,7 +7134,6 @@ footer ul li a.active {
   font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
   text-transform: uppercase;
   letter-spacing: 2px;
-  border-radius: 300px;
 }
 .btn-xl {
   padding: 15px 45px;
@@ -7172,7 +7164,7 @@ body {
 /* Costumized settings for be an we.js theme. */
 .navbar-brand img {
   display: block;
-  max-height: 100px;
+  max-height: 110px;
 }
 header {
   position: relative;
@@ -7488,7 +7480,7 @@ body.iframe-page-type footer {
   min-height: 5px;
 }
 .header-logo-block.with-logo-img .navbar-brand {
-  top: 5px;
+  top: -5px;
   padding: 0px;
 }
 .header-logo-block.with-logo-img .site-name {
@@ -8020,6 +8012,9 @@ body.body-main-index .hotel-event-teaser .hotel-event-about {
 }
 #region-sidebar .widget-mailchimp-subscription-form h3 {
   margin-top: 0px;
+}
+.widget-news-panel {
+  min-height: 535px;
 }
 @media (max-width: 768px) {
   body.body-main-index #region-content .widget.widget-slideshow h2 {
